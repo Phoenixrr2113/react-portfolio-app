@@ -1,0 +1,146 @@
+.about-section {
+	margin: 10% 0;
+	width: 100%;
+
+	.header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		h1 {
+			font-size: 60px;
+			margin: 0;
+		}
+
+		hr {
+			background-color: @background_color_main-bg;
+			width: 10%;
+			height: 10px;
+		}
+	}
+
+	.about-content {
+		.profile-pic {
+			width: auto;
+			border: 1px solid black;
+		}
+		.top-content {
+			margin-top: 10%;
+			display: flex;
+			.card {
+				width: 25%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding: 0 15px;
+
+				// @keyframes spin {
+				// 	0% {
+				// 		transform: rotate(0deg);
+				// 	}
+				// 	100% {
+				// 		transform: rotate(360deg);
+				// 	}
+				// }
+
+				// .img {
+				// 	border: 16px solid @background_color_projects;
+				// 	border-radius: 50%;
+				// 	border-top: 16px solid @color_blue-accent;
+				// 	width: 120px;
+				// 	height: 120px;
+
+				// 	animation: spin 1s linear infinite;
+				// }
+
+				h2 {
+					margin-top: 50px;
+					font-size: 20px;
+				}
+				p {
+					text-align: center;
+					line-height: 125%;
+					letter-spacing: 0.7px;
+				}
+			}
+		}
+
+		.bio {
+			padding: 0 15px;
+			margin-top: 10%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.profile {
+				width: 40%;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+
+				.profile-content {
+					p {
+						text-align: center;
+						line-height: 125%;
+						letter-spacing: 0.7px;
+					}
+				}
+			}
+
+			.skills-content {
+				margin-left: 5%;
+				width: 60%;
+				display: flex;
+				flex-direction: column;
+
+				.skill-container {
+					display: flex;
+					.tag {
+						background-color: @color_blue-accent;
+						width: 100px;
+						padding: 10px;
+						color: white;
+						position: absolute;
+					}
+				}
+
+				.skills {
+					text-align: right;
+					padding: 10px;
+					color: white;
+				}
+
+				.bar {
+					width: 100%;
+					margin-top: 10px;
+					background-color: @background_color_projects;
+
+					.css {
+						width: 80%;
+						background-color: @background_color_skills;
+					}
+
+					.html {
+						width: 90%;
+						background-color: @background_color_skills;
+					}
+
+					.js {
+						width: 85%;
+						background-color: @background_color_skills;
+					}
+
+					.react {
+						width: 75%;
+						background-color: @background_color_skills;
+					}
+
+					.mongo {
+						width: 60%;
+						background-color: @background_color_skills;
+					}
+				}
+			}
+		}
+	}
+}

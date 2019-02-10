@@ -160,6 +160,112 @@ h5 {
   display: flex;
   flex-direction: column;
 }
+.about-section {
+  margin: 10% 0;
+  width: 100%;
+}
+.about-section .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-section .header h1 {
+  font-size: 60px;
+  margin: 0;
+}
+.about-section .header hr {
+  background-color: #252934;
+  width: 10%;
+  height: 10px;
+}
+.about-section .about-content .profile-pic {
+  width: auto;
+  border: 1px solid black;
+}
+.about-section .about-content .top-content {
+  margin-top: 10%;
+  display: flex;
+}
+.about-section .about-content .top-content .card {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
+}
+.about-section .about-content .top-content .card h2 {
+  margin-top: 50px;
+  font-size: 20px;
+}
+.about-section .about-content .top-content .card p {
+  text-align: center;
+  line-height: 125%;
+  letter-spacing: 0.7px;
+}
+.about-section .about-content .bio {
+  padding: 0 15px;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-section .about-content .bio .profile {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-section .about-content .bio .profile .profile-content p {
+  text-align: center;
+  line-height: 125%;
+  letter-spacing: 0.7px;
+}
+.about-section .about-content .bio .skills-content {
+  margin-left: 5%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.about-section .about-content .bio .skills-content .skill-container {
+  display: flex;
+}
+.about-section .about-content .bio .skills-content .skill-container .tag {
+  background-color: #07bac2;
+  width: 100px;
+  padding: 10px;
+  color: white;
+  position: absolute;
+}
+.about-section .about-content .bio .skills-content .skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+.about-section .about-content .bio .skills-content .bar {
+  width: 100%;
+  margin-top: 10px;
+  background-color: #ebebeb;
+}
+.about-section .about-content .bio .skills-content .bar .css {
+  width: 80%;
+  background-color: #01979d;
+}
+.about-section .about-content .bio .skills-content .bar .html {
+  width: 90%;
+  background-color: #01979d;
+}
+.about-section .about-content .bio .skills-content .bar .js {
+  width: 85%;
+  background-color: #01979d;
+}
+.about-section .about-content .bio .skills-content .bar .react {
+  width: 75%;
+  background-color: #01979d;
+}
+.about-section .about-content .bio .skills-content .bar .mongo {
+  width: 60%;
+  background-color: #01979d;
+}
 .intro-section {
   color: white;
   background-color: #252934;
