@@ -3,34 +3,34 @@ import React from 'react';
 const Projects = () => {
 	return (
 		<div>
-			<div class="projects-section">
-				<div class="header">
+			<div className="projects-section">
+				<div className="header">
 					<h1>Projects</h1>
 					<hr />
 				</div>
 
-				<div class="section">
-					<div class="tabs">
-						<div class="tabs-links">
-							<div class="tabs-link tabs-link-selected" data-tab="1">
+				<div className="section">
+					<div className="tabs">
+						<div className="tabs-links">
+							<div className="tabs-link tabs-link-selected" data-tab="1">
 								ALL
 							</div>
-							<div class="tabs-link" data-tab="2">
+							<div className="tabs-link" data-tab="2">
 								REACT.JS
 							</div>
-							<div class="tabs-link" data-tab="3">
+							<div className="tabs-link" data-tab="3">
 								HTMLS/CSS
 							</div>
-							<div class="tabs-link" data-tab="4">
+							<div className="tabs-link" data-tab="4">
 								MONGODB
 							</div>
 						</div>
-						<div class="tabs-items">
-							<div class="tabs-item tabs-item-selected" data-tab="1">
-								<div class="tabs-item-description">Don’t Panic.</div>
+						<div className="tabs-items">
+							<div className="tabs-item tabs-item-selected" data-tab="1">
+								<div className="tabs-item-description">Don’t Panic.</div>
 							</div>
-							<div class="tabs-item" data-tab="2">
-								<div class="tabs-item-description">
+							<div className="tabs-item" data-tab="2">
+								<div className="tabs-item-description">
 									Curiously enough, the only thing that went through the mind of
 									the bowl of petunias as it fell was Oh no, not again. Many
 									people have speculated that if we knew exactly why the bowl of
@@ -38,8 +38,8 @@ const Projects = () => {
 									nature of the Universe than we do now.
 								</div>
 							</div>
-							<div class="tabs-item" data-tab="3">
-								<div class="tabs-item-description">
+							<div className="tabs-item" data-tab="3">
+								<div className="tabs-item-description">
 									It is known that there are an infinite number of worlds,
 									simply because there is an infinite amount of space for them
 									to be in. However, not every one of them is inhabited.
@@ -52,8 +52,8 @@ const Projects = () => {
 									products of a deranged imagination.
 								</div>
 							</div>
-							<div class="tabs-item" data-tab="4">
-								<div class="tabs-item-description">
+							<div className="tabs-item" data-tab="4">
+								<div className="tabs-item-description">
 									There is a theory which states that if ever anyone discovers
 									exactly what the Universe is for and why it is here, it will
 									instantly disappear and be replaced by something even more

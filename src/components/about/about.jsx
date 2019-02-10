@@ -3,21 +3,21 @@ import React from 'react';
 const About = () => {
 	return (
 		<div>
-			<div class="container">
-				<div class="about-section">
-					<div class="header">
+			<div className="container">
+				<div className="about-section">
+					<div className="header">
 						<h1>About</h1>
 						<hr />
 					</div>
 
-					<div class="about-content">
-						<div class="top-content">
-							<div class="card">
-								<div class="img" />
-								<div class="title">
+					<div className="about-content">
+						<div className="top-content">
+							<div className="card">
+								<div className="img" />
+								<div className="title">
 									<h2>Fast</h2>
 								</div>
-								<div class="text">
+								<div className="text">
 									<p>
 										Fast load times and lag free interaction, my highest
 										priority.
@@ -25,30 +25,30 @@ const About = () => {
 								</div>
 							</div>
 
-							<div class="card">
-								<div class="img" />
-								<div class="title">
+							<div className="card">
+								<div className="img" />
+								<div className="title">
 									<h2>Responsive</h2>
 								</div>
-								<div class="text">
+								<div className="text">
 									<p>My layouts will work on any device, big or small.</p>
 								</div>
 							</div>
-							<div class="card">
-								<div class="img" />
-								<div class="title">
+							<div className="card">
+								<div className="img" />
+								<div className="title">
 									<h2>Intuitive</h2>
 								</div>
-								<div class="text">
+								<div className="text">
 									<p>Strong preference for easy to use, intuitive UX/UI.</p>
 								</div>
 							</div>
-							<div class="card">
-								<div class="img" />
-								<div class="title">
+							<div className="card">
+								<div className="img" />
+								<div className="title">
 									<h2>Dynamic</h2>
 								</div>
-								<div class="text">
+								<div className="text">
 									<p>
 										Websites don't have to be static, I love making pages come
 										to life.
@@ -57,13 +57,13 @@ const About = () => {
 							</div>
 						</div>
 
-						<div class="bio">
-							<div class="profile">
-								<div class="profile-pic" />
-								<div class="profile-header">
+						<div className="bio">
+							<div className="profile">
+								<div className="profile-pic" />
+								<div className="profile-header">
 									<h2>Who am I?</h2>
 								</div>
-								<div class="profile-content">
+								<div className="profile-content">
 									<p>
 										I'm the Full-stack Developer/ Freelancer based out of
 										Sarasota FL. I have serious passion for UI effects,
@@ -72,46 +72,46 @@ const About = () => {
 									</p>
 								</div>
 							</div>
-							<div class="skills-content">
-								<div class="bar">
-									<div class="skill-container">
-										<div class="tag">
+							<div className="skills-content">
+								<div className="bar">
+									<div className="skill-container">
+										<div className="tag">
 											<span>HTML</span>
 										</div>
-										<div class="skills html">90%</div>
+										<div className="skills html">90%</div>
 									</div>
 								</div>
 
-								<div class="bar">
-									<div class="skill-container">
-										<div class="tag">
+								<div className="bar">
+									<div className="skill-container">
+										<div className="tag">
 											<span>CSS</span>
 										</div>
-										<div class="skills css">80%</div>
+										<div className="skills css">80%</div>
 									</div>
 								</div>
-								<div class="bar">
-									<div class="skill-container">
-										<div class="tag">
+								<div className="bar">
+									<div className="skill-container">
+										<div className="tag">
 											<span>React</span>
 										</div>
-										<div class="skills react">75%</div>
+										<div className="skills react">75%</div>
 									</div>
 								</div>
-								<div class="bar">
-									<div class="skill-container">
-										<div class="tag">
+								<div className="bar">
+									<div className="skill-container">
+										<div className="tag">
 											<span>MongoDB</span>
 										</div>
-										<div class="skills mongo">60%</div>
+										<div className="skills mongo">60%</div>
 									</div>
 								</div>
-								<div class="bar">
-									<div class="skill-container">
-										<div class="tag">
+								<div className="bar">
+									<div className="skill-container">
+										<div className="tag">
 											<span>JavaScript</span>
 										</div>
-										<div class="skills js">85%</div>
+										<div className="skills js">85%</div>
 									</div>
 								</div>
 							</div>

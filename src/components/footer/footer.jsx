@@ -3,12 +3,13 @@ import React from 'react';
 const Footer = () => {
 	return (
 		<div>
-			<div class="footer-section">
-				<div class="social">
-					<i class="fab fa-linkedin-in" /> <i class="fab fa-facebook-f" />
-					<i class="fab fa-github-square" />
+			<div className="footer-section">
+				<div className="social">
+					<i className="fab fa-linkedin-in" />{' '}
+					<i className="fab fa-facebook-f" />
+					<i className="fab fa-github-square" />
 				</div>
-				<div class="copyright">
+				<div className="copyright">
 					RANDY WILSON <span>©2018</span>
 				</div>
 			</div>

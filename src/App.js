@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Homepage from './components/homepage/homepage';
-import Projects from './components/projects/projecgts';
+import Projects from './components/projects/projects';
 import About from './components/about/about';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';

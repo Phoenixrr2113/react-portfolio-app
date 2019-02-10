@@ -3,13 +3,13 @@ import React from 'react';
 const Contact = () => {
 	return (
 		<div>
-			<div class="contact-section">
-				<div class="header">
+			<div className="contact-section">
+				<div className="header">
 					<h1>Contact</h1>
 					<hr />
 				</div>
 
-				<div class="contact-content">
+				<div className="contact-content">
 					<p>Have a question or want to colaberate?</p>
 					<form>
 						<input type="text" placeholder="Name" />

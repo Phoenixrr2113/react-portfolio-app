@@ -126,17 +126,28 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v12/4iCv6KVjbNBYlgoCxCvjsGyI.ttf) format('truetype');
+}
 html,
 body {
   height: 100%;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Bangers';
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
@@ -206,7 +217,7 @@ h5 {
 .navigation .nav-content .selected {
   color: #e3196d;
 }
-.navigation .nav-content a {
+.navigation .nav-content .links {
   font-size: 20px;
   margin: 3% 0;
   padding-left: 5%;
